@@ -1,0 +1,79 @@
+.common {
+    border: 2px solid white;
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 60px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+.leftmenu {
+    top: 74px;
+    left: 5px;
+    width: 200px;
+    bottom: 1px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #555555;
+    padding-right: 5px;
+}
+.mainbody {
+    top: 74px;
+    left:214px;
+    right: 214px;
+    bottom: 1px;
+}
+.rightmenu {
+    top: 74px;
+    right: 5px;
+    width: 200px;
+    bottom: 1px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+}
+.subheader {
+    float: right;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #555555;
+    background-color:aliceblue;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    color: maroon;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: blue;
+}
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+.center {text-align: center;}
